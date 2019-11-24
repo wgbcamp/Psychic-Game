@@ -35,7 +35,7 @@ document.addEventListener("keypress", function(event){
 
         guessesLeft = 9;
         guessChanger.textContent = "Guesses Left: " + guessesLeft;
-        
+        guessDisplayer.textContent = "Your Guesses so far: ";
         
         
         
@@ -51,6 +51,7 @@ document.addEventListener("keypress", function(event){
             lossChanger.textContent = "Losses: " + lossCount;
             guessesLeft = 9;
             guessChanger.textContent = "Guesses Left: " + guessesLeft;
+            guessDisplayer.textContent = "Your Guesses so far: ";
         }
     }
 
